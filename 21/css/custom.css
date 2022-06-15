@@ -203,7 +203,7 @@ label {
 }
 
 .event-tab .nav-tabs > li > a {
-  font-size: 18px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.28);
   margin-right: 30px;
   padding: 5px 0px;
@@ -556,7 +556,7 @@ iframe {
   }
 
   .event-tab .nav-tabs > li > a {
-    font-size: 16px;
+    font-size: 25px;
     margin-right: 0;
     padding: 2px 0px;
   }

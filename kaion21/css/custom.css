@@ -10,6 +10,11 @@ body {
   font-weight: 400;
 }
 
+/* Scroll bar Always displayed */
+html {
+  overflow-y: scroll;
+}
+
 /* common style's */
 a {
   color: #7447ae;

@@ -490,7 +490,7 @@ iframe {
 }
 
 /* media query for tab */
-@media (max-width: 767px) {
+@media (max-width: 962px) {
   .event-banner-wrapper {
     position: relative;
     width: 100%;
@@ -524,7 +524,7 @@ iframe {
     margin-top: 20px;
   }
 
-  .cart {
+  .twipla_link {
     padding: 15px;
     background: #fff;
     margin-bottom: 0;
@@ -553,12 +553,12 @@ iframe {
     width: 100%;
   }
 
-  .cart p {
+  .twipla_link p {
     font-size: 16px;
     margin: 0;
   }
 
-  .cart p .divider {
+  .twipla_link p .divider {
     border-right: 0px;
     padding-left: 0;
     margin-right: 0;

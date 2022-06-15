@@ -6,7 +6,7 @@ Created by pixpalette.com - online design magazine */
 html,
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -131,10 +131,10 @@ label {
   padding: 20px;
   background: url(../images/event-banner.png);
   background-position: center;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size: auto;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 

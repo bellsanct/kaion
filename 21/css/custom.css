@@ -579,77 +579,81 @@ iframe {
   }
 }
 
-.card-img-top{
-    height: 200px;
-    width: 100%;
+.card-img-top {
+  height: 200px;
+  width: 100%;
 }
 
 .card-no-border .card {
-    border-color: #d7dfe3;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05)
+  border-color: #d7dfe3;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
 }
 
 .card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 1.25rem
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
 }
 
 .pro-img {
-    margin-top: -80px;
-    margin-bottom: 20px
+  margin-top: -80px;
+  margin-bottom: 20px;
 }
 
 .little-profile .pro-img img {
-    width: 128px;
-    height: 128px;
-    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    border-radius: 100%
+  width: 128px;
+  height: 128px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
 }
 
 html body .m-b-0 {
-    margin-bottom: 0px
+  margin-bottom: 0px;
 }
 
 h3 {
-    line-height: 30px;
-    font-size: 21px
+  line-height: 30px;
+  font-size: 21px;
 }
 
 .btn-rounded.btn-md {
-    padding: 12px 35px;
-    font-size: 16px
+  padding: 12px 35px;
+  font-size: 16px;
 }
 
 html body .m-t-10 {
-    margin-top: 10px
+  margin-top: 10px;
 }
 
 .btn-info,
 .btn-info.disabled {
-    background: #1bcae7;
-    border: 1px solid #1bcae7;
-    -webkit-box-shadow: 0 2px 2px 0 rgba(96, 218, 238, 0.14), 0 3px 1px -2px rgba(96, 218, 238, 0.2), 0 1px 5px 0 rgba(96, 218, 238, 0.12);
-    box-shadow: 0 2px 2px 0 rgba(96, 218, 238, 0.14), 0 3px 1px -2px rgba(96, 218, 238, 0.2), 0 1px 5px 0 rgba(96, 218, 238, 0.12);
-    -webkit-transition: 0.2s ease-in;
-    -o-transition: 0.2s ease-in;
-    transition: 0.2s ease-in
+  background: #1bcae7;
+  border: 1px solid #1bcae7;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(96, 218, 238, 0.14), 0 3px 1px -2px rgba(96, 218, 238, 0.2), 0 1px 5px 0 rgba(96, 218, 238, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(96, 218, 238, 0.14), 0 3px 1px -2px rgba(96, 218, 238, 0.2), 0 1px 5px 0 rgba(96, 218, 238, 0.12);
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .btn-info:hover {
-    background: #1bcac7;
+  background: #1bcac7;
 }
 
 .btn-rounded {
-    border-radius: 60px;
-    padding: 7px 18px
+  border-radius: 60px;
+  padding: 7px 18px;
 }
 
 .m-t-20 {
-    margin-top: 20px
+  margin-top: 20px;
 }
 
+.crewcard-img-top {
+  width: 100%;
+  height: 100%;
+}

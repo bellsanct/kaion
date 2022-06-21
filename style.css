@@ -16,7 +16,9 @@ html {
     width: 65%;
     padding-bottom: 2.5rem;
   }
-} /* タイトル部 */
+} 
+
+/* タイトル部 */
 
 .title-article {
   height: 480px;
@@ -47,14 +49,18 @@ html {
 
 /* aboutus article */
 
-.main-bg {
+.aboutus-article {
   background-image: url("./svg/main_bg.svg");
   background-repeat: no-repeat;
   background-position: right, bottom;
   background-size: cover;
+  /*
   background-attachment: fixed;
+  */
 }
 
 .aboutus-article {
+  /*
   background-color: rgba(0, 0, 0, 0.7);
+  */
 }

@@ -3,6 +3,7 @@ html {
   font-family: "Yusei Magic", sans-serif;
   */
   font-family: "BIZ UDPGothic", sans-serif;
+  background-color: #313131;
 }
 
 /* ロゴ画像 */
@@ -46,8 +47,14 @@ html {
 
 /* aboutus article */
 
+.main-bg {
+  background-image: url("./svg/main_bg.svg");
+  background-repeat: no-repeat;
+  background-position: right, bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .aboutus-article {
-  background-image: url("./images/background-line1.png"), url("./images/background-image1.png");
-  background-repeat: repeat-x, no-repeat;
-  background-position: right top, right bottom;
+  background-color: rgba(0, 0, 0, 0.7);
 }

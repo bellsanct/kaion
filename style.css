@@ -4,3 +4,41 @@ html {
   */
   font-family: "BIZ UDPGothic", sans-serif;
 }
+
+/* ロゴ画像 */
+.logo-img {
+  filter: drop-shadow(10px 10px 25px #010101);
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    width: 65%;
+    padding-bottom: 2.5rem;
+  }
+} /* タイトル部 */
+
+.title-article {
+  height: 480px;
+  background-image: url("./images/14_thumb.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-phrase {
+  background-color: rgba(11, 11, 11, 0.7);
+}
+
+@media (max-width: 960px) {
+  .title-article {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-article {
+    height: 240px;
+  }
+  .title-phrase {
+    font-size: 0.9rem;
+  }
+}

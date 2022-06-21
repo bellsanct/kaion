@@ -42,3 +42,12 @@ html {
     font-size: 0.9rem;
   }
 }
+
+
+/* aboutus article */
+
+.aboutus-article {
+  background-image: url("./images/background-line1.png"), url("./images/background-image1.png");
+  background-repeat: repeat-x, no-repeat;
+  background-position: right top, right bottom;
+}

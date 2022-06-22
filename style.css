@@ -11,7 +11,7 @@ html {
   filter: drop-shadow(10px 10px 25px #010101);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 960px) {
   .logo-img {
     width: 65%;
     padding-bottom: 2.5rem;
@@ -35,6 +35,9 @@ html {
   .title-article {
     height: 300px;
   }
+  .title-phrase {
+    width: 65%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -42,6 +45,7 @@ html {
     height: 240px;
   }
   .title-phrase {
+    width: 100%;
     font-size: 0.8rem;
   }
 }

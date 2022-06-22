@@ -89,3 +89,13 @@ html {
   background-repeat: repeat-x, no-repeat;
   background-color: rgba(22, 22, 22, 1);
 }
+
+/* slide */
+.swiper-slide > img {
+  max-width: 420px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #f3f3f3 !important;
+}

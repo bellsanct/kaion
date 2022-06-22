@@ -72,6 +72,7 @@ html {
 /* content article */
 
 .content-article {
+  background-color: rgba(66, 66, 66, 0.9);
   background-image: url("./svg/main_bg2.svg");
   background-repeat: no-repeat;
   background-position: right, bottom;

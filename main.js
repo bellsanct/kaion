@@ -1,5 +1,5 @@
 const swiper = new Swiper(".swiper", {
-  // Default parameters
+  centeredSlides: true,
   slidesPerView: 1,
   spaceBetween: 10,
   // Responsive breakpoints

@@ -6,7 +6,8 @@ html {
   background-color: #313131;
 }
 
-/* ロゴ画像 */
+/* logo-img */
+
 .logo-img {
   filter: drop-shadow(10px 10px 25px #010101);
 }
@@ -16,9 +17,9 @@ html {
     width: 65%;
     padding-bottom: 2.5rem;
   }
-} 
+}
 
-/* タイトル部 */
+/* title-article */
 
 .title-article {
   height: 480px;
@@ -50,7 +51,6 @@ html {
   }
 }
 
-
 /* aboutus article */
 
 .aboutus-article {
@@ -66,6 +66,18 @@ html {
 .aboutus-article {
   /*
   background-color: rgba(0, 0, 0, 0.7);
+  */
+}
+
+/* content article */
+
+.content-article {
+  background-image: url("./svg/main_bg2.svg");
+  background-repeat: no-repeat;
+  background-position: right, bottom;
+  background-size: cover;
+  /*
+  background-attachment: fixed;
   */
 }
 

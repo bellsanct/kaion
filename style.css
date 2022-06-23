@@ -99,3 +99,8 @@ html {
 .swiper-button-next {
   color: #f3f3f3 !important;
 }
+
+/* notice-list */
+.notice-list > li {
+  margin: 1rem 0;
+}

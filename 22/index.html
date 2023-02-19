@@ -29,64 +29,6 @@
     <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/ui/4.2.0/firebase-ui-auth__ja.js"></script>
-    <script type="text/javascript"> 
-      const getAttendList = function() {
-      var url = 'https://script.google.com/macros/s/AKfycbxvRDjoqQ4umuWWgKfhicdyfWfj0A78TFY3T4en84hsD9TDyAQ2y2_MYl4GcsQaL2yi/exec';
-      fetch(url)
-          .then(response => response.text())
-          .then(data => {
-          var userList = JSON.parse(data);
-          let iml = '';
-          userList.forEach(function(name) {
-            //console.log(name)
-            iml += '<li class="nameList">' + name + '</li>';
-          });
-          var attendList = document.getElementById('attend-list');
-          attendList.insertAdjacentHTML('afterbegin',iml);
-        });
-      }
-    </script>
-    <script type="text/javascript">
-      firebase.initializeApp({
-              "apiKey": "AIzaSyB9iOtZ62r_h-wzlyB1qNyObUUA7NlzVX0",
-              "projectId": "kaion-invite",
-              "authDomain": "kaion-invite.firebaseapp.com",
-              "storageBucket": "kaion-invite.appspot.com",
-              "messagingSenderId": "1098852191252",
-              "appId": "1:1098852191252:web:c3374d7ad3ee908e34eb01",
-              "measurementId": "G-N4EX38KPSZ"
-            });
-      // FirebaseUI config.
-      var uiConfig = {
-              callbacks: {
-                      signInSuccessWithAuthResult : (authResult,callbackUrl)=>{
-                              var user = authResult.user;
-                              fetch("https://script.google.com/macros/s/AKfycbyIxKnslrAh95Iq6xO9FhJupqENI9we62fTfk_uQPu22_NSkPgAQ1YVCCpYXbaS3Oz8/exec?id=" + user.displayName )
-                              document.getElementById('invite-message').style.display = 'none';
-                              document.getElementById('success').style.display = 'block';
-                              return false;
-                            },
-                      uiShown: function() {
-                              // The widget is rendered.
-                              // Hide the loader.
-                              document.getElementById('loader').style.display = 'none';
-                            }
-                    },
-
-              signInOptions: [
-                      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-                      //firebase.auth.AnonymousAuthProvider.PROVIDER_ID,
-                      firebase.auth.EmailAuthProvider.PROVIDER_ID
-                    ],
-              signInFlow: 'popup',
-              privacyPolicyUrl: function() {
-                      //  window.location.assign('privacy-policy');
-                    }
-            };
-      var ui = new firebaseui.auth.AuthUI(firebase.auth());
-      ui.start('#firebaseui-auth-container', uiConfig);
-      getAttendList();
-    </script>
   </head>
   <body class="main-bg">
     <article class="title-article pb3 bg-black">
@@ -317,34 +259,6 @@
               <li>当日ご来場いただける人数上限を30名とさせていただいております。</li>
               <li>当日のご入場は、本ページで参加表明くださった方から優先してご入場いただけます。<br />ご来場を予定されている方はぜひこのページ下部から参加表明をお願い申し上げます。</li>
             </ul>
-          </div>
-        </section>
-      </div>
-    </article>
-
-    <div class="border-line"></div>
-
-    <article class="near-white bg-dark-gray ph3 ph5-ns pv4 pv5-ns">
-      <div class="mw9 center">
-        <section class="mt3 cf">
-          <div class="fl-l w-100 w-40-l pr4-ns mb5">
-            <h1 class="f1 mt0">Attending</h1>
-          </div>
-          <div class="fl-l w-100 w-60-l pr4-ns mt5 mb5">
-            <p id="invite-message" class="f5 f3-ns mt0">Googleアカウントまたはお手持ちのメールアドレスを使用して参加表明が可能です。ログインを行うと、自動で参加表明が行われます。</p>
-            <p class="mt3 mb3">こちらで使用する情報は参加表明以外には一切使用いたしません。</p>
-            <p id="success" class="f5 f3-ns mt0" style="display:none;">参加表明を行いました！(ページ更新後から反映されます。)</p>
-            <div id="firebaseui-auth-container"></div>
-            <div id="loader">Loading...</div>
-          </div>
-          <div class="fl-l w-100 w-40-l pr4-ns mb5">
-            <h1 class="f1 mt0"></h1>
-          </div>
-          <div class="fl-l w-100 w-60-l pr4-ns mt5 mb5">
-            <h1 id="" class="f5 f3-ns mt0">現在の参加表明者(敬称略)</h1>
-            <ul id="attend-list" class="list">
-            </ul>
-            <p class="f5 f5-ns mt0">参加キャンセル等のお問い合わせは、お手数ですが主催(<a href="https://twitter.com/bell_staymen04" target="_blank" rel="norefferer noopener">@Bell_Staymen04</a>)までご連絡ください。</p>
           </div>
         </section>
       </div>

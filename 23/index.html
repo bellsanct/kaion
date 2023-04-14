@@ -34,7 +34,7 @@
     </script>
     <script type="text/javascript"> 
       const getAttendList = function() {
-        var url = 'https://script.google.com/macros/s/AKfycbxvRDjoqQ4umuWWgKfhicdyfWfj0A78TFY3T4en84hsD9TDyAQ2y2_MYl4GcsQaL2yi/exec';
+        var url = 'https://script.google.com/macros/s/AKfycbwSk7WcLPumJTlxeV5FXUQv-_g0qN6i6vgP4-63Hxl9mP6Q9mbKRI6r_niR-rQEWbVm/exec';
         fetch(url)
           .then(response => response.text())
           .then(data => {
@@ -68,7 +68,7 @@
         callbacks: {
           signInSuccessWithAuthResult : (authResult,callbackUrl)=>{
             var user = authResult.user;
-            fetch("https://script.google.com/macros/s/AKfycbyIxKnslrAh95Iq6xO9FhJupqENI9we62fTfk_uQPu22_NSkPgAQ1YVCCpYXbaS3Oz8/exec?id=" + user.displayName )
+            fetch("https://script.google.com/macros/s/AKfycbwVh_bB2b0hl4677w8aMnon085zADiRHIhAF9T31vhm4g-2JfcPM_54cq7Se-8BcuSYLw/exec?id=" + user.displayName )
             document.getElementById('invite-message').style.display = 'none';
             document.getElementById('success').style.display = 'block';
             return false;

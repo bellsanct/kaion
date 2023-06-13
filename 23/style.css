@@ -11,16 +11,18 @@ a {
 }
 
 body:before {
-  content:"";
-  display:block;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:-1;
-  width:100%;
-  height:100%;
-  background:url("../images/23_bg.png") top no-repeat;
-  background-size: contain;
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/23_bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
   margin: 0;
   padding: 0;
 }

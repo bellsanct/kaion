@@ -3,14 +3,38 @@ html {
   font-family: "Yusei Magic", sans-serif;
   */
   font-family: "BIZ UDPGothic", sans-serif;
-  background-color: #313131;
+  background-color: #e08c5c;
 }
 
 a {
   color: #58a6dc;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/23_bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content {
+  padding: 40px 0;
+}
+
 /* title */
+.bg-title, .bg-tweet, .bg-about, .bg-guest, .bg-dj, .bg-timetable, .bg-attending, .bg-attention {
+  background-color: rgba(11, 11, 11, 0.6);
+  margin: 200px 0;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+}
+
+.bg-near-clear-black {
+  background-color: rgba(11, 11, 11, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/*
 .bg-title {
   background-color: #e06726;
 }
@@ -42,7 +66,7 @@ a {
 .bg-attention {
   background-color: #051736;
 }
-
+*/
 
 /* logo-img */
 
@@ -61,14 +85,13 @@ a {
 
 .title-article {
   height: 480px;
-  background-image: url("../images/22_thumb.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .title-phrase {
-  background-color: rgba(11, 11, 11, 0.5);
+  background-color: rgba(11, 11, 11, 0.6);
   padding: 1.2rem;
 }
 
@@ -82,7 +105,7 @@ a {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .title-article {
     height: 280px;
   }

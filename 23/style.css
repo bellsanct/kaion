@@ -28,12 +28,6 @@ body:before {
   background-attachment: fixed;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-size: auto 100%;
-  }
-}
-
 .content {
   padding: 40px 0;
 }

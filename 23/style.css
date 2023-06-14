@@ -27,7 +27,7 @@ body:before {
   padding: 0;
 }
 
-@media only screen and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
   body:before {
     background-size: contain;
   }
@@ -41,7 +41,7 @@ body:before {
 .bg-title, .bg-tweet, .bg-about, .bg-guest, .bg-dj, .bg-timetable, .bg-attending, .bg-attention {
   background-color: rgba(11, 11, 11, 0.6);
   margin: 200px 0;
-  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.6);
 }
 
 .bg-near-clear-black {

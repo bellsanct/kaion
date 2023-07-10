@@ -27,14 +27,7 @@ a {
 
 .title-article {
   height: 480px;
-  background-image: url("./images/14_thumb.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.title-article-13 {
-  height: 480px;
-  background-image: url("./images/13_thumb.png");
+  background-image: url("./images/14_thumb.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }

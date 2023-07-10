@@ -19,7 +19,7 @@ body:before {
   z-index: -1;
   width: 100vw;
   height: 100vh;
-  background: url("../images/23_bg.png");
+  background: url("../images/23_bg.webp");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

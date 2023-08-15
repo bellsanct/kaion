@@ -68,7 +68,7 @@
         callbacks: {
           signInSuccessWithAuthResult : (authResult,callbackUrl)=>{
             var user = authResult.user;
-	    user = user.replace(/\s+/g, '_'):
+	    user = user.replace(/\s+/g, '_');
             fetch("https://script.google.com/macros/s/AKfycbwVh_bB2b0hl4677w8aMnon085zADiRHIhAF9T31vhm4g-2JfcPM_54cq7Se-8BcuSYLw/exec?id=" + user.displayName )
             document.getElementById('invite-message').style.display = 'none';
             document.getElementById('success').style.display = 'block';

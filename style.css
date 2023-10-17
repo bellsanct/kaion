@@ -40,7 +40,7 @@ body {
 @media (max-width: 960px) {
   .logo-img {
     width: 65%;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
   }
 }
 

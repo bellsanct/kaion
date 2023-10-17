@@ -3,17 +3,38 @@ html {
   font-family: "Yusei Magic", sans-serif;
   */
   font-family: "BIZ UDPGothic", sans-serif;
-  background-color: #313131;
+  background-color: rgba(255, 58, 125, 0.95);
 }
 
 a {
   color: #58a6dc;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: url("./images/14_thumb.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background-color: rgba(11, 11, 11, 0.1); */ 
+}
+
 /* logo-img */
 
 .logo-img {
-  filter: drop-shadow(10px 10px 25px #010101);
+  filter: drop-shadow(10px 8px 3px #111);
 }
 
 @media (max-width: 960px) {
@@ -26,14 +47,13 @@ a {
 /* title-article */
 
 .title-article {
-  height: 480px;
-  background-image: url("./images/14_thumb.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(33, 33, 33, 0.2);
+  padding: 10px;
 }
 
 .title-phrase {
-  background-color: rgba(11, 11, 11, 0.7);
+  background-color: rgba(11, 11, 11, 0.5);
+  padding: 20px;
 }
 
 @media (max-width: 960px) {
@@ -64,13 +84,10 @@ a {
 /* aboutus article */
 
 .aboutus-article {
-  background-image: url("./svg/main_bg.svg");
   background-repeat: no-repeat;
   background-position: right, bottom;
   background-size: cover;
-  /*
-  background-attachment: fixed;
-  */
+  background-color: rgba(33, 33, 33, 0.6);
 }
 
 .aboutus-article {
@@ -82,8 +99,7 @@ a {
 /* content article */
 
 .content-article {
-  background-color: rgba(66, 66, 66, 0.9);
-  background-image: url("./svg/main_bg2.svg");
+  background-color: rgba(33, 33, 33, 0.3);
   background-repeat: no-repeat;
   background-position: right, bottom;
   background-size: cover;

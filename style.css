@@ -53,7 +53,7 @@ body {
 
 .title-phrase {
   background-color: rgba(11, 11, 11, 0.5);
-  padding: 20px;
+  padding: 5px;
 }
 
 @media (max-width: 960px) {

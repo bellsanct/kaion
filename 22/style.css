@@ -1,0 +1,122 @@
+html {
+  /*
+  font-family: "Yusei Magic", sans-serif;
+  */
+  font-family: "BIZ UDPGothic", sans-serif;
+  background-color: #313131;
+}
+
+a {
+  color: #58a6dc;
+}
+
+/* logo-img */
+
+.logo-img {
+  filter: drop-shadow(10px 10px 25px #010101);
+}
+
+@media (max-width: 960px) {
+  .logo-img {
+    width: 65%;
+    padding-bottom: 2.5rem;
+  }
+}
+
+/* title-article */
+
+.title-article {
+  height: 480px;
+  background-image: url("../images/14_thumb.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-phrase {
+  background-color: rgba(11, 11, 11, 0.7);
+}
+
+@media (max-width: 960px) {
+  .title-article {
+    height: 300px;
+  }
+  .title-article-13 {
+    height: 300px;
+  }
+  .title-phrase {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-article {
+    height: 240px;
+  }
+  .title-article-13 {
+    height: 240px;
+  }
+  .title-phrase {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
+
+/* aboutus article */
+
+.aboutus-article {
+  background-image: url("../svg/main_bg.svg");
+  background-repeat: no-repeat;
+  background-position: right, bottom;
+  background-size: cover;
+  /*
+  background-attachment: fixed;
+  */
+}
+
+.aboutus-article {
+  /*
+  background-color: rgba(0, 0, 0, 0.7);
+  */
+}
+
+/* content article */
+
+.content-article {
+  background-color: rgba(66, 66, 66, 0.9);
+  background-image: url("../svg/main_bg2.svg");
+  background-repeat: no-repeat;
+  background-position: right, bottom;
+  background-size: cover;
+  /*
+  background-attachment: fixed;
+  */
+}
+
+/* border-line */
+.border-line {
+  height: 20px;
+  transform: scale(-1, -1);
+  background-image: url("../images/background-line1.png");
+  background-repeat: repeat-x, no-repeat;
+}
+
+/* slide */
+.swiper-slide > img {
+  max-width: 420px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #f3f3f3 !important;
+}
+
+/* notice-list */
+.notice-list > li {
+  margin: 1rem 0;
+}
+
+@media (max-width: 960px) {
+  .profile-container {
+    margin: 100px auto !important;
+  }
+}
